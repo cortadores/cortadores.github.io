@@ -1,6 +1,6 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
+/* @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
-@import url(http://fonts.googleapis.com/css?family=Glegoo);
+@import url(http://fonts.googleapis.com/css?family=Glegoo); */
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -307,7 +307,7 @@ a:hover {
 #hero-area {
   background: url("../images/slider.png") no-repeat 50%;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: inherit;
   padding: 230px 0;
   color: #fff;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
@@ -317,7 +317,7 @@ a:hover {
 #hero-area:before {
   content: '';
   z-index: 9;
-  background: rgba(255, 255, 255, 0.78);
+  /* background: rgba(255, 255, 255, 0.78); */
   position: absolute;
   top: 0;
   left: 0;
@@ -333,7 +333,8 @@ a:hover {
 #hero-area h1 {
   font-size: 40px;
   line-height: 50px;
-  color: #333;
+  /* color: #333; */
+  color: #ffffff;
   font-weight: 700;
   margin-bottom: 15px;
   text-transform: uppercase;
@@ -590,7 +591,7 @@ figure figcaption {
   padding: 20px 25px;
   margin-top: 0;
   color: #666;
-  min-height: 255px;
+  max-height: 200px;
 }
 
 figure figcaption h4 {
@@ -1271,7 +1272,8 @@ article {
 }
 
 .cd-headline.slide .cd-words-wrapper {
-  color: #607B97;
+  /* color: #607B97; */
+  color: #ffffff;
 }
 
 ul.social-icons {
@@ -1352,6 +1354,7 @@ px      68    160    252    */
   }
   .navbar-header .navbar-brand a {
     padding: 6px 8px;
+    /* margin-top: 12px; */
   }
   #hero-area {
     padding: 140px 0;
@@ -1444,6 +1447,22 @@ px      68    160    252    */
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: contain;
+}
+.py-0{
+	padding-bottom: 0 !important;
+	padding-top: 0 !important;
+}
+.bg-about{
+  background: url(../images/about.png) 100%;
+  background-size: cover;
+  height: 200px;
+}
+.white,.white:visited{
+  color: #fff;
+}
+.white:hover{
+  text-decoration: underline;
+  color: #fff;
 }
 /*		Wide Mobile Layout: 480px.
 		Gutters: 24px.
