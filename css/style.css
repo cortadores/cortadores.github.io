@@ -1485,6 +1485,9 @@ px      68    160    252    */
 small.lg{
   font-size: 13px;
 }
+.pb-10{
+  padding-bottom: 10px;
+}
 /*		Wide Mobile Layout: 480px.
 		Gutters: 24px.
 		Outer margins: 22px.
