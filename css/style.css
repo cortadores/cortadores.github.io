@@ -1475,12 +1475,13 @@ px      68    160    252    */
   background-size: cover;
   height: 200px;
 }
+.white,.white:visited{
+  color: #fff;
+  font-weight: bold;
+}
 .white:hover{
   color: #fff;
   text-decoration: underline;
-}
-.white,.white:visited{
-  color: #fff;
 }
 small.lg{
   font-size: 13px;

@@ -151,10 +151,6 @@ $(".fancybox").fancybox({
     }
 });
 
-$('figcaption h4 a:not(".link")').on('click', function(e){
-    e.preventDefault();
-})
-
 
 
 
