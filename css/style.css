@@ -1456,7 +1456,7 @@ px      68    160    252    */
 .white-anchor{
   color: #0A2746;
 }
-#call-to-action .block .btn-contact:hover, #call-to-action .block .btn-contact:focus, #call-to-action .block .btn-contact:active {
+#call-to-action .block .btn-contact:hover, #call-to-action .block .btn-contact:focus {
   background-color: #436282;
   color: #fff;
 }
@@ -1478,6 +1478,7 @@ px      68    160    252    */
 .white,.white:visited{
   color: #fff;
   font-weight: bold;
+  text-decoration: underline;
 }
 .white:hover{
   color: #fff;
